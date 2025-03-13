@@ -8,7 +8,7 @@
 }
 
 .custom-btn {
-  background-color: #2B3467 !important;
+  background-color: #2b3467 !important;
   color: white !important;
   border: none;
   transition: all 0.3s ease;
@@ -30,11 +30,12 @@ body {
   padding: 50px 0;
 }
 .footer {
-  background-color: #2B3467;
+  background-color: #2b3467;
   color: white;
   padding: 20px 0;
 }
 
-footer .item-footer::after {
-  border-bottom: 10px solid black;
+footer .item-footer {
+  padding: 3rem 0;
+  border-bottom: 1px solid white;
 }
