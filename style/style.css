@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fcffe7;
+  font-family: "Poppins", sans-serif !important;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #eb455f !important;
+}
+.hero-section {
+  padding: 50px 0;
+}
+.footer {
+  background-color: #2b3467;
+  color: white;
+  padding: 20px 0;
+}

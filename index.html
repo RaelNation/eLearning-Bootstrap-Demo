@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eLearning Unsrat</title>
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/css/bootstrap.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">eLearning</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-danger" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Course</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-outline-dark me-2">Sign Up</button>
+              <button class="btn btn-dark">Sign In</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container hero-section">
+      <div class="row align-items-center">
+        <div class="col-md-4">
+          <img src="public/src/img/image 7.png" class="img-fluid rounded shadow" alt="Universitas Sam Ratulangi" />
+        </div>
+        <div class="col-md-8">
+          <h2 class="fw-bold">Selamat Datang di eLearning</h2>
+          <h4 class="text-danger">Universitas Sam Ratulangi</h4>
+          <p>
+            Belajar tanpa batas, berkembang dengan budaya akademik yang unggul. Portal eLearning UNSRAT hadir untuk mendukung perjalanan Anda dalam meraih ilmu dan keterampilan melalui teknologi inovatif dan interaktif. Bersama, kita
+            wujudkan Universitas Sam Ratulangi yang <span>Unggul</span> dan <span>Berbudaya</span>! <br /><br />Temukan berbagai peluang tanpa batas untuk berkembang dan meraih masa depan yang lebih cerah bersama eLearning UNSRAT.
+          </p>
+          <ul>
+            <li>Kelas Online</li>
+            <li>Kuis Online</li>
+          </ul>
+          <button class="btn btn-dark">Belajar Sekarang</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Section -->
+    <div class="container text-center py-5">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="icon1.png" class="mb-3" alt="UNSRAT" />
+          <p>Website Resmi Universitas Sam Ratulangi</p>
+        </div>
+        <div class="col-md-3">
+          <img src="icon2.png" class="mb-3" alt="TPA" />
+          <p>Test Potensi Akademik oleh LP3 UNSRAT</p>
+        </div>
+        <div class="col-md-3">
+          <img src="icon3.png" class="mb-3" alt="eKKT" />
+          <p>eLearning Kuliah Kerja Terpadu Universitas Sam Ratulangi</p>
+        </div>
+        <div class="col-md-3">
+          <img src="icon4.png" class="mb-3" alt="Panduan" />
+          <p>Daftar Panduan Penggunaan Portal e-Learning UNSRAT</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>About eLearning UNSRAT</h5>
+            <p>Portal ini dikembangkan oleh Tim Pengembang UPT TIK UNSRAT...</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Quick Link</h5>
+            <ul class="list-unstyled">
+              <li>Website Unsrat</li>
+              <li>eJournal Unsrat</li>
+              <li>Portal Akademik</li>
+              <li>Repo Unsrat</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Help</h5>
+            <ul class="list-unstyled">
+              <li>Website Unsrat</li>
+              <li>eJournal Unsrat</li>
+              <li>Portal Akademik</li>
+              <li>Repo Unsrat</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="scripts/js/bootstrap.js"></script>
+    <script src="scripts/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const myModal = document.getElementById("exampleModal");
+        const myInput = document.getElementById("myInput");
+
+        myModal.addEventListener("shown.bs.modal", function () {
+          myInput.focus();
+        });
+      });
+    </script>
+  </body>
+</html>
